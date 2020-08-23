@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+
+    <script>
+        const Room_id = "<%= roomid %>"
+    </script>
+    <script src="/socket.io/socket.io.js" defer>
+    </script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="main">
+
+        <div class="left__main">
+
+            <div id="host-video-grid">
+
+            </div>
+
+        </div>
+        <div class="right__main">
+            <div class="nav">
+
+                <div class="main__controls__block">
+                    <div onclick="muteUnmute()" class="main__controls__button main__mute_button">
+                        <i class="fas fa-microphone"></i>
+                        <span>Mute</span>
+                    </div>
+                    <div onclick="playStop()" class="main__controls__button main__video_button">
+                        <i class="fas fa-video"></i>
+                        <span>Stop Video</span>
+                    </div>
+
+
+                    <span class="leave_meeting">Leave Meeting</span>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="bottam__right">
+                
+                <div id="video-grid">
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

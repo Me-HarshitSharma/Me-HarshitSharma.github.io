@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#video-grid{
+    padding-left: 2.5vw;
+    padding-top: 5vh;
+    
+    width: 15vw;
+    height: 10vh;
+   
+   
+}
+.main{
+display: flex;
+border: 2px solid black;
+height: 99vh;
+}
+
+.left__main{
+border: 2px solid red;
+    
+    flex: 0.8;
+    background-color: black;
+    
+}
+
+.right__main{
+    border: 2px solid rgb(78, 52, 3);
+   
+    flex: 0.2;
+
+
+
+}
+.nav{
+    display: flex;
+    flex: 1;
+    height: 60px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+.main__controls__block{
+    display: flex;
+}
+.bottam__right{
+   
+    border: 2px solid magenta;
+    display: flex;
+    flex: 1;
+    height: 90vh;
+
+}
