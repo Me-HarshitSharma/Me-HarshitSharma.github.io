@@ -32,4 +32,4 @@ io.on('connection', Socket=>{
     })
 })
 
-server.listen(codersvilla.me)
+server.listen(80)
